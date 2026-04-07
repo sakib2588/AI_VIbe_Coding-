@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Get Started — Lumen Careers</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-page="contact">
+<div id="site-nav"></div>
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow reveal">Get Started</p>
+    <h1 class="reveal delay-1">Ready to find your <em style="color:#c89b3c;font-style:italic">next</em> role?</h1>
+    <p class="reveal delay-2">Create a free profile and let the right opportunities come to you — or post a job and reach thousands of vetted IT professionals.</p>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="container center">
+    <form class="form reveal" onsubmit="event.preventDefault(); this.querySelector('.thanks').style.display='block';">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="Email address" required>
+      <input type="text" placeholder="Primary skill (e.g. React, AWS, Python)">
+      <button class="btn btn-glow" type="submit">Join Lumen</button>
+      <p class="thanks" style="display:none">Welcome aboard — check your inbox to complete signup.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow center reveal">Or Reach Out</p>
+    <h2 class="center reveal">Other ways to connect.</h2>
+    <div class="bento" style="grid-template-columns:repeat(3,1fr)">
+      <div class="bento-card reveal"><div class="icon">◆</div><h3>Sales</h3><p>For employers and brokerages looking to post roles.</p><a href="#" class="btn btn-arrow" style="margin-top:1rem;display:inline-block">sales@lumen.io <span>→</span></a></div>
+      <div class="bento-card reveal delay-1"><div class="icon">✦</div><h3>Support</h3><p>For account help, billing, or tech issues.</p><a href="#" class="btn btn-arrow" style="margin-top:1rem;display:inline-block">help@lumen.io <span>→</span></a></div>
+      <div class="bento-card reveal delay-2"><div class="icon">❖</div><h3>Press</h3><p>For media inquiries and press kits.</p><a href="#" class="btn btn-arrow" style="margin-top:1rem;display:inline-block">press@lumen.io <span>→</span></a></div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="partials.js"></script>
+</body>
+</html>
